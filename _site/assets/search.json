@@ -1,0 +1,54 @@
+
+
+[
+  
+  
+    
+    
+      {
+        "title": "Hello World",
+        "excerpt": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n",
+        "content": "This is my very first blog post. I haven’t written anything yet but I’m sure I have some great stories to tell.\n",
+        "url": "/general/2018/08/22/hello-world/"
+      },
+    
+      {
+        "title": "Programming with Plotly",
+        "excerpt": "Here is a chart created with plotly.\n",
+        "content": "Here is a chart created with plotly.\n\nFirst import the necessary libraries\n\nimport plotly.graph_objects as go\nimport plotly.io as pio\n\nThen go through the steps to create your figure. When it is ready you will need to write it to an html file.\n\npio.write_html(fig, file='name-of-your-file.html', auto_open=True)\n\nThe auto_open argument opens the file in your browser from where it is saved. Unfortunately, github pages do not allow for iframes to be used. Instead we can insert images, doing so will require having an images folder as part of your site structure along kaleido as part of your python package.\n\n fig.write_image('images/name-of-your-image.png') \n\nWhile, we cannot embed interactive iframes within github pages, we can insert static images:\n\n(fix later)\n\nAnd additionally, link to the interactive html chart:\n\nInteractive Covid Case Numbers for United States\n",
+        "url": "/programming/2022/02/21/Charting-With-Plotly/"
+      },
+    
+  
+  
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": "\n",
+    "url": "/categories/"
+  },
+  
+  {
+    "title": "Blog",
+    "excerpt": "\n",
+    "content": "\n",
+    "url": "/blog/"
+  },
+  
+  {
+    "title": "Welcome to my website",
+    "excerpt": "\n",
+    "content": "There isn’t much going on here yet, but watch this space\n",
+    "url": "/"
+  },
+  
+  {
+    "title": "Aaron Schonhoff Resume",
+    "excerpt": "\n",
+    "content": "I’m not sure yet what this website is about, but I’m sure I’ll work it out soon.\n",
+    "url": "/resume/"
+  }
+  
+]
+
