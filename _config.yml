@@ -24,9 +24,36 @@ plugins:
 url: 'https://mydomain.com'
 baseurl: ''
 title: 'Aaron Schonhoff'
-description: 'This is my new website'
+description: 'This site serves as a repository where I explore useful tools in conducting data analysis.'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+repo: "https://github.com/aschonhoff/aschonhoff.github.io"
+favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
+  16: '/assets/logos/logo@16px.png'
+  32: '/assets/logos/logo@32px.png'
+  96: '/assets/logos/logo@96px.png'
+  120: '/assets/logos/logo@120px.png'
+  144: '/assets/logos/logo@144px.png'
+  180: '/assets/logos/logo@180px.png'
+  512: '/assets/logos/logo@512px.png'
+  1024: '/assets/logos/logo@1024px.png'
+
+# Gem settings
+author: AaronSchonhoff
+name: Aaron Schonhoff
+social: # jekyll-seo-tag > social overrides
+  name: Aaron Schonhoff # jekyll-seo-tag > real name
+  links:  # jekyll-seo-tag > social aliases (sameAs)
+    - https://github.com/aschonhoff
+
+
+#Jekyll settings
+timezone: America/Denver # Timezone for blog posts and alike
+sass:
+  style: compressed # Style compression
+
+
+
+
 
 # Pagination
 paginate: 5
@@ -36,8 +63,8 @@ paginate_path: blog/page:num
 navigation_header:
 - title: Home
   url: /
-- title: Resume
-  url: /resume/
+- title: About Me
+  url: /about/
 - title: Blog
   url: /blog/
 
@@ -45,6 +72,10 @@ navigation_header:
 navigation_footer:
 - title: Back to top
   url: "#top"
+#social links
+social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
+  LinkedIn:  www.linkedin.com/in/aaron-schonhoff
+  GitHub: https://github.com/aschonhoff
 
 # Collections
 collections:
