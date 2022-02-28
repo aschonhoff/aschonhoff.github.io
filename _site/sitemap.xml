@@ -5,6 +5,14 @@
 <lastmod>2018-08-22T00:00:00-06:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/general/2019/04/02/Happy-Birthday/</loc>
+<lastmod>2019-04-02T00:00:00-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/2021/12/01/Markdown-Examples/</loc>
+<lastmod>2021-12-01T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/programming/2022/02/21/Charting-With-Plotly/</loc>
 <lastmod>2022-02-21T00:00:00-07:00</lastmod>
 </url>
@@ -19,6 +27,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/resume/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/covid.html</loc>
+<lastmod>2022-02-26T14:37:29-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/interactive_charts/covid.html</loc>
