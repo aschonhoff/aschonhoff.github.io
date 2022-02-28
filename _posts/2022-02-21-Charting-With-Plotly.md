@@ -3,6 +3,7 @@ title: Programming with Plotly
 categories:
 - Programming
 aside: true
+feature_image: "https://picsum.photos/2560/600?image=1020"
 ---
 
 Here is a chart created with plotly.
